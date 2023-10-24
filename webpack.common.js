@@ -1,25 +1,23 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    page: './src/page.jsx'
+    index: './src/index.js'
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs')
-    // clean: true
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/i,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -30,10 +28,25 @@ module.exports = {
         }
       },
       {
-        test: /\.(sa|sc|c)ss$/i,
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            cacheDirectory: true
+          }
+        }
+      },
+      {
+        test: /\.scss$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
+          'sass-loader',
           {
             loader: 'postcss-loader',
             options: {
@@ -41,8 +54,7 @@ module.exports = {
                 plugins: [['postcss-preset-env']]
               }
             }
-          },
-          'sass-loader'
+          }
         ]
       },
       {
@@ -54,7 +66,14 @@ module.exports = {
         type: 'asset/source'
       },
       {
-        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        test: /\.png/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[hash][ext][query]'
+        }
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|webp)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'images/[hash][ext][query]'
@@ -71,28 +90,61 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css'
+      filename: '[name].[contenthash].css',
+      chunkFilename: '[id].[contenthash].css'
     }),
 
-    // Landing page
+    // Index
     new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html',
-      chunks: ['index']
+      filename: './index.html'
     }),
-
-    // Internal pages
+    // Sections
     new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
+      template: './src/cards.html',
+      filename: './cards.html'
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/article.html',
+      filename: './article.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts.html',
+      filename: './podcasts.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists.html',
+      filename: './checklists.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch.html',
+      filename: './merch.html'
+    }),
+    // Сards
+    new HtmlWebpackPlugin({
+      template: './src/cards/cards-rodeo.html',
+      filename: './cards/cards-rodeo.html'
+    }),
+    // Checklists
+    new HtmlWebpackPlugin({
+      template: './src/checklists/checklists-surfing.html',
+      filename: './checklists/checklists-surfing.html'
+    }),
+    // Article
+    new HtmlWebpackPlugin({
+      template: './src/article/article-surfing.html',
+      filename: './article/article-surfing.html'
+    }),
+    // Podcasts
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/podcasts-alpinism.html',
+      filename: './podcasts/podcasts-alpinism.html'
+    }),
+    // Merch
+    new HtmlWebpackPlugin({
+      template: './src/merch/sweatshirt.html',
+      filename: './merch/sweatshirt.html'
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
@@ -107,3 +159,5 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
+
+
