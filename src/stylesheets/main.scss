@@ -1,0 +1,52 @@
+body.index {
+  margin: 0px;
+
+  .header {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    margin-top: 10px;
+  }
+
+  li {
+    display: inline;
+    margin: 60px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 165px;
+    font-size: 55px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h3 {
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  img {
+    max-width: 42%;
+    border-radius: 5%;
+  }
+
+  .artic1 {
+    position: relative;
+    margin-left: 155px;
+  }
+
+  .Articl1 {
+    position: absolute;
+    margin-left: 605px;
+    top: 240px;
+    font-size: 23px;
+  }
+}
