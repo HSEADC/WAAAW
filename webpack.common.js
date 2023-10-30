@@ -99,6 +99,11 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html'
     }),
+    // About
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
+    }),
     // Sections
     new HtmlWebpackPlugin({
       template: './src/cards.html',

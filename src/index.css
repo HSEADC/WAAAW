@@ -1,7 +1,10 @@
 @import 'stylesheets/reset.scss';
+@import 'stylesheets/fonts.scss';
 @import 'stylesheets/index.scss';
+@import 'stylesheets/main.scss';
 @import 'stylesheets/cards.scss';
 @import 'stylesheets/article.scss';
 @import 'stylesheets/podcasts.scss';
 @import 'stylesheets/checklists.scss';
 @import 'stylesheets/merch.scss';
+@import 'stylesheets/about.scss';
