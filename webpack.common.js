@@ -136,10 +136,10 @@ module.exports = {
       template: './src/checklists/checklists-surfing.html',
       filename: './checklists/checklists-surfing.html'
     }),
-    // Article
+    // Articles
     new HtmlWebpackPlugin({
-      template: './src/article/article-surfing.html',
-      filename: './article/article-surfing.html'
+      template: './src/articles/article-surfing.html',
+      filename: './articles/article-surfing.html'
     }),
     // Podcasts
     new HtmlWebpackPlugin({
