@@ -94,6 +94,12 @@ module.exports = {
       chunkFilename: '[id].[contenthash].css'
     }),
 
+    // Styleguide
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
@@ -135,10 +141,10 @@ module.exports = {
       template: './src/checklists/checklists-surfing.html',
       filename: './checklists/checklists-surfing.html'
     }),
-    // Article
+    // Articles
     new HtmlWebpackPlugin({
-      template: './src/article/article-surfing.html',
-      filename: './article/article-surfing.html'
+      template: './src/articles/article-surfing.html',
+      filename: './articles/article-surfing.html'
     }),
     // Podcasts
     new HtmlWebpackPlugin({
@@ -164,5 +170,3 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
-
-
