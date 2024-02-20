@@ -1,0 +1,68 @@
+.C_Articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.2vw;
+  .O_Article:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .O_Article:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .O_Article:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
+.C_Podcasts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.2vw;
+  .O_Podcast:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .O_Podcast:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .O_Podcast:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
+.C_Cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.2vw;
+  .O_Card:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .O_Card:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+.C_Checklists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.2vw;
+  .O_Checklist:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .O_Checklist:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .O_Checklist:nth-of-type(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .O_Checklist:nth-of-type(4) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+}

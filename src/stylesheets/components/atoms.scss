@@ -1,0 +1,104 @@
+.A_h2Articles {
+  width: 14.2vw;
+  height: 2.6vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.A_h2Podcasts {
+  width: 14.2vw;
+  height: 2.6vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.A_h2Cards {
+  width: 14.2vw;
+  height: 2.6vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.A_h2Checklist {
+  width: 14.2vw;
+  height: 2.6vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.A_h3Article {
+  line-height: 108%;
+  font-size: 1.6vw;
+  font-family: 'Navigo';
+  font-weight: 800;
+  color: #000;
+  // text-transform: uppercase;
+}
+.A_h3Podcast {
+  line-height: 108%;
+  font-size: 1.6vw;
+  font-family: 'Navigo';
+  font-weight: 800;
+  color: #ff5c00;
+  // text-transform: uppercase;
+}
+.A_h3Card {
+  line-height: 108%;
+  font-size: 1.6vw;
+  font-family: 'Navigo';
+  font-weight: 800;
+  color: #000;
+  // text-transform: uppercase;
+}
+.A_h3Checklist {
+  line-height: 108%;
+  font-size: 1.6vw;
+  font-family: 'Navigo';
+  font-weight: 800;
+  color: #fff;
+  // text-transform: uppercase;
+}
+.A_pArticle {
+  line-height: 110%;
+  font-size: 1.2vw;
+  font-family: 'Navigo';
+  font-weight: 500;
+  color: #191919;
+}
+.A_pPodcast {
+  line-height: 110%;
+  font-size: 1.2vw;
+  font-family: 'Navigo';
+  font-weight: 500;
+  color: #ff5c00;
+}
+.A_pCard {
+  line-height: 110%;
+  font-size: 1.2vw;
+  font-family: 'Navigo';
+  font-weight: 500;
+  color: #191919;
+}
+.A_Btoutn {
+  width: 10.1vw;
+  height: 3.1vw;
+  background-color: #f7d9ff;
+  color: #ff5c00;
+  border-radius: 1.4vw;
+}
+.A_Btoutn:hover {
+  background-color: #ff5c00;
+  color: #f7d9ff;
+}
+.A_Btoutn:active {
+  background-color: #ff823c;
+  color: #f1b8ff;
+}
+.A_MenuArticles {
+  width: 4vw;
+  height: 2vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
