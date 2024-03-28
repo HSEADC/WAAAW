@@ -1,18 +1,12 @@
-body.razdel-merch { 
-    
-    .header {text-align: center;}
-
-    .header ul {list-style: none;
-                margin: 0px;
-                margin-top: 10px;}
-
-    .header li {display: inline;
-                margin: 60px;}
-
-    .cent {text-align: center;
-            margin-top: 150px;}
-
-    a {text-decoration: none;
-        color: inherit;}
-
+.notepad_1 {
+  .Also {
+    width: 30.2vw;
+    height: 2.97vw;
+    display: block;
+    margin-top: 7vw;
+    background: url('images/Merch/WatchAlso.svg');
+    background-position: top center;
+    background-size: 30.2vw 2.97vw;
+    background-repeat: no-repeat;
+  }
 }

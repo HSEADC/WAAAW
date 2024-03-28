@@ -116,8 +116,8 @@ module.exports = {
       filename: './cards.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/article.html',
-      filename: './article.html'
+      template: './src/articles.html',
+      filename: './articles.html'
     }),
     new HtmlWebpackPlugin({
       template: './src/podcasts.html',
@@ -131,13 +131,35 @@ module.exports = {
       template: './src/merch.html',
       filename: './merch.html'
     }),
+    // Articles
+    new HtmlWebpackPlugin({
+      template: './src/articles/article_1.html',
+      filename: './articles/article_1.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/article_2.html',
+      filename: './articles/article_2.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/article_3.html',
+      filename: './articles/article_3.html'
+    }),
     // Сards
     new HtmlWebpackPlugin({
-      template: './src/cards/cards-rodeo.html',
-      filename: './cards/cards-rodeo.html'
+      template: './src/cards/card_1.html',
+      filename: './cards/card_1.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/cards/card_2.html',
+      filename: './cards/card_2.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/cards/card_3.html',
+      filename: './cards/card_3.html'
     }),
     // Checklists
     new HtmlWebpackPlugin({
+<<<<<<< HEAD
       template: './src/checklists/checklists-surfing.html',
       filename: './checklists/checklists-surfing.html'
     }),
@@ -145,16 +167,25 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/article-surfing.html',
       filename: './articles/article-surfing.html'
+=======
+      template: './src/checklists/checklist_1.html',
+      filename: './checklists/checklist_1.html'
+>>>>>>> main
     }),
     // Podcasts
     new HtmlWebpackPlugin({
-      template: './src/podcasts/podcasts-alpinism.html',
-      filename: './podcasts/podcasts-alpinism.html'
+      template: './src/podcasts/podcast_1.html',
+      filename: './podcasts/podcast_1.html'
     }),
     // Merch
     new HtmlWebpackPlugin({
-      template: './src/merch/sweatshirt.html',
-      filename: './merch/sweatshirt.html'
+      template: './src/merch/notepad.html',
+      filename: './merch/notepad.html'
+    }),
+    // 404
+    new HtmlWebpackPlugin({
+      template: './src/404.html',
+      filename: './404.html'
     }),
     // Partials
     new HtmlWebpackPartialsPlugin([

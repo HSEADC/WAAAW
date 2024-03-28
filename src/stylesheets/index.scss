@@ -1,6 +1,46 @@
+<<<<<<< HEAD
 // body.splash_screen {
 //   background-color: #a1fc01;
 //   font-family: Navigo;
+=======
+<<<<<<< HEAD
+.index {
+  // height: 278vw;
+  // background: url(images/fonIndex.png);
+  // background-repeat: no-repeat;
+
+  // Меню
+
+  .M_h2a {
+    margin-top: 6vw;
+    .A_WatchAll {
+      #pArticles {
+        margin-left: 45vw;
+      }
+      #pPodcasts {
+        margin-left: 38.7vw;
+      }
+      #pCards {
+        margin-left: 40vw;
+      }
+      #pChecklists {
+        margin-left: 36.6vw;
+      }
+      #pMerch {
+        margin-left: 48vw;
+      }
+    }
+  }
+}
+
+.O_Footer {
+  margin-top: 10vw;
+}
+=======
+body.splash_screen {
+  background-color: #a1fc01;
+  font-family: Navigo;
+>>>>>>> main
 
 //   .icons {
 //     margin-top: 2.6vw;
@@ -99,6 +139,7 @@
 //     margin-top: 1.2vw;
 //     margin-left: 0.7vw;
 
+<<<<<<< HEAD
 //     height: 2vw;
 //     width: 10vw;
 //     border-radius: 30px;
@@ -113,3 +154,20 @@
 //     margin-top: 1vw;
 //   }
 // }
+=======
+    height: 2vw;
+    width: 10vw;
+    border-radius: 30px;
+    border: 0px;
+    background-color: white;
+    font-family: Navigo;
+    font-size: 1.1vw;
+  }
+  #my-form-status {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1vw;
+  }
+}
+>>>>>>> main
+>>>>>>> main

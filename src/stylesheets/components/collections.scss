@@ -1,0 +1,70 @@
+.C_Articles {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2vw;
+  .O_Article:nth-of-type(2) {
+    margin-left: 2.2vw;
+  }
+  .O_Article:nth-of-type(3) {
+    margin-left: 2.2vw;
+  }
+}
+.C_Podcasts {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2vw;
+  .O_Podcast:nth-of-type(2) {
+    margin-left: 2.2vw;
+  }
+  .O_Podcast:nth-of-type(3) {
+    margin-left: 2.2vw;
+  }
+}
+.C_Cards {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2vw;
+  .O_Card:nth-of-type(2) {
+    margin-left: 2.2vw;
+  }
+}
+.C_Checklists {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2vw;
+  .O_Checklist:nth-of-type(2) {
+    margin-left: 2.2vw;
+  }
+  .O_Checklist:nth-of-type(3) {
+    margin-left: 2.2vw;
+  }
+  .O_Checklist:nth-of-type(4) {
+    margin-left: 2.2vw;
+  }
+}
+.C_MerchHome {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2vw;
+  .O_Merch:nth-of-type(2) {
+    margin-left: 2.2vw;
+  }
+  .O_Merch:nth-of-type(3) {
+    margin-left: 2.2vw;
+  }
+}
+
+.C_Checkboxes {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}

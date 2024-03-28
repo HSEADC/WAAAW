@@ -1,0 +1,22 @@
+.W_FirstScreen {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vw;
+  img {
+    width: 73vw;
+    height: 53.44vw;
+  }
+}
+.W_Podcast {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-left: 15.5vw;
+  margin-top: 2.2vw;
+  .A_Pleer {
+    margin-top: 8.8vw;
+    margin-left: 2.7vw;
+  }
+}

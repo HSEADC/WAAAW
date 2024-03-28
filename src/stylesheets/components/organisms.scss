@@ -1,0 +1,100 @@
+// Меню
+
+.O_Menu {
+  width: auto;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.3vw;
+  .Q_LogoBlack {
+    margin-top: 0.5vw;
+  }
+  .A_MenuArticles {
+    margin-top: 1.3vw;
+    margin-left: 9vw;
+  }
+  .A_MenuCards,
+  .A_MenuChecklists,
+  .A_MenuPodcasts,
+  .A_MenuMerch,
+  .A_MenuAbout {
+    margin-top: 1.3vw;
+    margin-left: 3.3vw;
+  }
+}
+
+// Единицы разделов
+
+.O_Article {
+  position: relative;
+  height: 23.5vw;
+  .M_ArticleTextBox {
+    position: absolute;
+    top: 12.5vw;
+  }
+}
+.O_Podcast {
+  position: relative;
+  width: 21.48vw;
+  .M_PodcastTextBox {
+    position: absolute;
+    top: 0;
+    left: 6.6vw;
+  }
+}
+.O_Card {
+  position: relative;
+  height: 22.4vw;
+  .M_CardTextBox {
+    position: absolute;
+    top: 12.5vw;
+  }
+  .M_CardTextBoxS {
+    position: absolute;
+    top: 12.5vw;
+  }
+}
+.O_Checklist {
+  position: relative;
+  width: 15.55vw;
+  height: 19.5vw;
+  background-color: #1f1f1f;
+  border-radius: 1.3vw;
+  .A_h3Checklist {
+    padding: 2.5vw 2.5vw 0;
+  }
+  .A_CheklistImg {
+    position: absolute;
+    top: 6.5vw;
+    left: 1.5vw;
+  }
+}
+.O_BoxCheckboxes {
+  width: 21.5vw;
+  height: auto;
+  background-color: #1f1f1f;
+  border-radius: 1.3vw;
+  padding-bottom: 2vw;
+  .A_h3Checkboxes {
+    padding: 2.3vw 2.3vw 0;
+  }
+}
+.O_Merch {
+  position: relative;
+  width: auto;
+  height: auto;
+  .A_h3Merch {
+    position: absolute;
+    top: 20.6vw;
+    left: 2.3vw;
+  }
+}
+
+// Подвал
+
+.O_Footer {
+  width: 100vw;
+  height: 13vw;
+  background-color: #1f1f1f;
+  border-radius: 1.3vw 1.3vw 0 0;
+}

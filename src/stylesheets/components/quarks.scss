@@ -1,0 +1,103 @@
+.Q_IconTg,
+.Q_IconVk,
+.Q_LogoPink {
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.Q_LogoBlack {
+  width: 6.72vw;
+  height: 1.72vw;
+  display: block;
+  background: url('images/LogoBlack.svg');
+  background-position: top center;
+  background-size: 6.72vw 1.72vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/LogoPink.svg');
+    background-position: top center;
+    background-size: 6.72vw 1.72vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/LogoOrange.svg');
+    background-position: top center;
+    background-size: 6.72vw 1.72vw;
+    background-repeat: no-repeat;
+  }
+}
+
+.A_check {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 50%;
+  background-color: #191919;
+  border: 0.2vw solid #f1b8ff;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  &:checked {
+    background-color: #f1b8ff;
+  }
+}
+
+.Q_Arrow {
+  width: 2.07vw;
+  height: 1.25vw;
+  background: url('images/ArrowRightDefault.svg');
+  background-position: top center;
+  background-size: 2.07vw 1.25vw;
+  background-repeat: no-repeat;
+}
+.Q_LogoPink {
+  width: 11vw;
+  height: 2.82vw;
+  background: url('images/LogoPink.svg');
+  background-size: 11vw 2.82vw;
+}
+.Q_IconTg {
+  width: 2.82vw;
+  height: 2.82vw;
+  background: url('images/IconTg.svg');
+  background-size: 2.82vw 2.82vw;
+  &:hover {
+    background: url('images/IconTgHover.svg');
+    background-position: top center;
+    background-size: 2.82vw 2.82vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/IconTgActive.svg');
+    background-position: top center;
+    background-size: 2.82vw 2.82vw;
+    background-repeat: no-repeat;
+  }
+}
+.Q_IconVk {
+  width: 2.82vw;
+  height: 2.82vw;
+  background: url('images/IconVk.svg');
+  background-size: 2.82vw 2.82vw;
+  &:hover {
+    background: url('images/IconVkHover.svg');
+    background-position: top center;
+    background-size: 2.82vw 2.82vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/IconVkActive.svg');
+    background-position: top center;
+    background-size: 2.82vw 2.82vw;
+    background-repeat: no-repeat;
+  }
+}
+
+.Q_Spark {
+  width: 3vw;
+  height: 2vw;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

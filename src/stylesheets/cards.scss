@@ -1,19 +1,50 @@
-body.razdel-cards { 
-    
-    .header {text-align: center;}
+<<<<<<< HEAD
+.card_1 {
+  .Konkur {
+    width: 12.57vw;
+    height: 2.9vw;
+    display: block;
+    background: url('images/Cards/h2Konkur.svg');
+    background-position: top center;
+    background-size: 12.57vw 2.9vw;
+    background-repeat: no-repeat;
+  }
+  .Also {
+    width: 25.77vw;
+    height: 2.38vw;
+    display: block;
+    margin-top: 7vw;
+    background: url('images/Cards/ReadAlso.svg');
+    background-position: top center;
+    background-size: 25.77vw 2.38vw;
+    background-repeat: no-repeat;
+  }
+}
+=======
+body.razdel-cards {
+  .header {
+    text-align: center;
+  }
 
-    .header ul {list-style: none;
-                margin: 0px;
-                margin-top: 10px;}
+  .header ul {
+    list-style: none;
+    margin: 0px;
+    margin-top: 10px;
+  }
 
-    .header li {display: inline;
-                margin: 60px;}
+  .header li {
+    display: inline;
+    margin: 60px;
+  }
 
-    .cent {text-align: center;
-            margin-top: 150px;}
+  .cent {
+    text-align: center;
+    margin-top: 150px;
+  }
 
-    a {text-decoration: none;
-        color: inherit;}
-
-
-}   
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+>>>>>>> main

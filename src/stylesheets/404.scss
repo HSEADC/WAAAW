@@ -1,0 +1,218 @@
+.error_404 {
+  background-color: #191919;
+  .Q_LogoBlack {
+    width: 6.72vw;
+    height: 1.72vw;
+    display: block;
+    background: url('images/LogoWhite.svg');
+    background-position: top center;
+    background-size: 6.72vw 1.72vw;
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('images/LogoPink.svg');
+      background-position: top center;
+      background-size: 6.72vw 1.72vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/LogoOrange.svg');
+      background-position: top center;
+      background-size: 6.72vw 1.72vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .A_MenuArticles {
+    width: 5.39vw;
+    height: 0.98vw;
+    display: block;
+    background: url('images/Menu/MenuArticlesWhite.svg');
+    background-position: top center;
+    background-size: 5.39vw 0.98vw;
+    background-repeat: no-repeat;
+    &:hover {
+      background: url('images/Menu/MenuArticlesHover.svg');
+      background-position: top center;
+      background-size: 5.39vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuArticlesActive.svg');
+      background-position: top center;
+      background-size: 5.39vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .A_MenuCards {
+    width: 7.19vw;
+    height: 1.17vw;
+    display: block;
+    background: url('images/Menu/MenuCardsWhite.svg');
+    background-position: top center;
+    background-size: 7.19vw 1.17vw;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background: url('images/Menu/MenuCardsHover.svg');
+      background-position: top center;
+      background-size: 7.19vw 1.17vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuCardsActive.svg');
+      background-position: top center;
+      background-size: 7.19vw 1.17vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .A_MenuChecklists {
+    width: 8.2vw;
+    height: 0.98vw;
+    display: block;
+    background: url('images/Menu/MenuChecklistsWhite.svg');
+    background-position: top center;
+    background-size: 8.2vw 0.98vw;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background: url('images/Menu/MenuChecklistsHover.svg');
+      background-position: top center;
+      background-size: 8.2vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuChecklistsActive.svg');
+      background-position: top center;
+      background-size: 8.2vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .A_MenuPodcasts {
+    width: 7.73vw;
+    height: 1.09vw;
+    display: block;
+    background: url('images/Menu/MenuPodcastsWhite.svg');
+    background-position: top center;
+    background-size: 7.73vw 1.09vw;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background: url('images/Menu/MenuPodcastsHover.svg');
+      background-position: top center;
+      background-size: 7.73vw 1.09vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuPodcastsActive.svg');
+      background-position: top center;
+      background-size: 7.73vw 1.09vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .A_MenuMerch {
+    width: 3.83vw;
+    height: 1.17vw;
+    display: block;
+    background: url('images/Menu/MenuMerchWhite.svg');
+    background-position: top center;
+    background-size: 3.83vw 1.17vw;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background: url('images/Menu/MenuMerchHover.svg');
+      background-position: top center;
+      background-size: 3.83vw 1.17vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuMerchActive.svg');
+      background-position: top center;
+      background-size: 3.83vw 1.17vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .A_MenuAbout {
+    width: 4.06vw;
+    height: 0.98vw;
+    display: block;
+    background: url('images/Menu/MenuAboutWhite.svg');
+    background-position: top center;
+    background-size: 4.06vw 0.98vw;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background: url('images/Menu/MenuAboutHover.svg');
+      background-position: top center;
+      background-size: 4.06vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+    &:active {
+      background: url('images/Menu/MenuAboutActive.svg');
+      background-position: top center;
+      background-size: 4.06vw 0.98vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .blocks {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 23.5vw;
+    .block_back {
+      margin-top: 16vw;
+      width: 38.4vw;
+      height: 24vw;
+      border: 4px solid #fff;
+      border-radius: 1.3vw;
+      p:nth-of-type(1) {
+        width: 24vw;
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.3vw;
+        padding-top: 13vw;
+        padding-left: 2vw;
+        padding-bottom: 2vw;
+      }
+      a {
+        margin-left: 2vw;
+        padding: 0.55vw 1.6vw;
+        background-color: #fff;
+        border-radius: 2vw;
+        text-decoration: none;
+        color: #191919;
+        font-size: 0.85vw;
+        font-weight: 400;
+      }
+    }
+    .block_front {
+      position: absolute;
+      top: 4vw;
+      width: 39vw;
+      height: 23vw;
+      background-color: #f1b8ff;
+      border-radius: 1.3vw;
+      p:nth-of-type(1) {
+        color: #191919;
+        font-weight: 600;
+        font-size: 11vw;
+        text-align: center;
+        padding-top: 5vw;
+        line-height: 90%;
+      }
+      p:nth-of-type(2) {
+        color: #191919;
+        font-weight: 400;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: -2vw;
+      }
+    }
+  }
+  .SparkE {
+    position: absolute;
+    width: 18vw;
+    height: 15vw;
+    top: 3vw;
+    left: 59vw;
+  }
+}
