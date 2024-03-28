@@ -1,3 +1,686 @@
+// <<<<<<< HEAD
+// // body.styleguide {
+// //   p {
+// //     font-family: 'Navigo';
+// //     font-size: 1.5vw;
+// //     font-weight: 400;
+// //     line-height: 120%;
+// //   }
+// //   .fon {
+// //     display: none;
+// //     position: absolute;
+// //     top: 0;
+// //     left: 0;
+// //     img {
+// //       width: 100vw;
+// //       opacity: 0;
+// //     }
+// //   }
+// //   .screen_1 {
+// //     background-color: #f1b8ff;
+// //     margin: 0;
+// //     width: 100vw;
+// //     height: 56vw;
+// //     img:nth-of-type(1) {
+// //       position: absolute;
+// //       width: 6vw;
+// //       top: 9vw;
+// //       left: 82vw;
+// //     }
+// //     img:nth-of-type(2) {
+// //       display: flex;
+// //       width: 18vw;
+// //       padding-top: 13vw;
+// //       padding-left: 66vw;
+// //     }
+// //     img:nth-of-type(3) {
+// //       display: flex;
+// //       margin: 0 auto;
+// //       width: 57vw;
+// //       padding-top: 4vw;
+// //     }
+// //   }
+// //   .content_1 {
+// //     margin: 7vw 12.7vw 0vw;
+// //     // margin-top: 7vw;
+// //     // margin-left: 12.7vw;
+// //     // margin-right: 12.5;
+// //     .screen_2 {
+// //       // display: inline;
+// //       div {
+// //         display: inline-flex;
+// //         position: relative;
+// //         margin: 0 auto;
+// //         width: 36vw;
+// //       }
+// //       .block_2_1 {
+// //         height: 22vw;
+// //         background-color: #191919;
+// //         img {
+// //           position: absolute;
+// //           width: 18vw;
+// //           top: 6vw;
+// //           left: 3vw;
+// //         }
+// //         p {
+// //           color: #f1b8ff;
+// //           position: absolute;
+// //           width: 30vw;
+// //           top: 12vw;
+// //           left: 3vw;
+// //         }
+// //       }
+// //       .block_2_2 {
+// //         height: 22vw;
+// //         margin-left: 1vw;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         img {
+// //           position: absolute;
+// //           width: 16vw;
+// //           top: 6vw;
+// //           left: 3vw;
+// //         }
+// //         p {
+// //           color: #191919;
+// //           position: absolute;
+// //           width: 30vw;
+// //           top: 12vw;
+// //           left: 3vw;
+// //         }
+// //       }
+// //       .block_2_3 {
+// //         height: 32vw;
+// //         margin-top: 1vw;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         img {
+// //           position: absolute;
+// //           width: 20vw;
+// //           top: 6vw;
+// //           left: 3vw;
+// //         }
+// //         p {
+// //           color: #191919;
+// //           line-height: 180%;
+// //           position: absolute;
+// //           width: 30vw;
+// //           top: 12vw;
+// //           left: 3vw;
+// //         }
+// //       }
+// //       .block_2_4 {
+// //         height: 32vw;
+// //         margin-top: 1vw;
+// //         margin-left: 1vw;
+// //         background-color: #f1b8ff;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         img {
+// //           position: absolute;
+// //           width: 27vw;
+// //           top: 6vw;
+// //           left: 3vw;
+// //         }
+// //         p {
+// //           color: #191919;
+// //           position: absolute;
+// //           width: 30vw;
+// //           top: 12vw;
+// //           left: 3vw;
+// //         }
+// //       }
+// //     }
+// //     .screen_3 {
+// //       margin-top: 7vw;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 18vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline;
+// //         margin-top: 4vw;
+// //         width: 14vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline;
+// //         margin-left: 23.3vw;
+// //         width: 16vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         color: #191919;
+// //         width: 30vw;
+// //         margin-top: 1.5vw;
+// //         display: inline-flex;
+// //       }
+// //       p:nth-of-type(2) {
+// //         color: #191919;
+// //         width: 30vw;
+// //         margin-top: 1.5vw;
+// //         display: inline-flex;
+// //         margin-left: 7.3vw;
+// //       }
+// //     }
+// //     .screen_4 {
+// //       margin-top: 7vw;
+// //       position: relative;
+// //       img:nth-of-type(1) {
+// //         width: 18vw;
+// //         display: block;
+// //       }
+// //       img:nth-of-type(2) {
+// //         width: 31vw;
+// //         margin-top: 3vw;
+// //       }
+// //       p {
+// //         position: absolute;
+// //         top: 5vw;
+// //         left: 38vw;
+// //         color: #191919;
+// //         width: 28vw;
+// //       }
+// //     }
+// //     .screen_5 {
+// //       margin-top: 7vw;
+// //       position: relative;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 23vw;
+// //         display: block;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: block;
+// //         width: 27vw;
+// //         margin-top: 3vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         position: absolute;
+// //         top: 5vw;
+// //         left: 38vw;
+// //         color: #191919;
+// //         width: 25vw;
+// //       }
+// //       p:nth-of-type(2) {
+// //         display: inline-flex;
+// //         color: #191919;
+// //         width: 20vw;
+// //         margin-top: 4vw;
+// //       }
+// //       p:nth-of-type(3) {
+// //         display: inline-flex;
+// //         color: #191919;
+// //         width: 25vw;
+// //         margin-left: 17.5vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         width: 18vw;
+// //         margin-top: 1vw;
+// //         margin-left: 1.5vw;
+// //       }
+
+// //       img:nth-of-type(4) {
+// //         width: 16vw;
+// //         margin-top: 1vw;
+// //         margin-left: 20vw;
+// //       }
+// //       p:nth-of-type(4) {
+// //         color: #191919;
+// //         width: 25vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(5) {
+// //         width: 19vw;
+// //         margin-top: 1vw;
+// //         margin-left: 1.5vw;
+// //       }
+// //       p:nth-of-type(5) {
+// //         position: absolute;
+// //         color: #191919;
+// //         width: 25vw;
+// //         top: 37.3vw;
+// //         left: 38vw;
+// //       }
+// //     }
+// //     .screen_6 {
+// //       margin-top: 7vw;
+// //       position: relative;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 19vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline;
+// //         width: 32vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline-flex;
+// //         width: 2vw;
+// //         margin-left: 5.5vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         color: #191919;
+// //         width: 28vw;
+// //         margin-top: 3vw;
+// //       }
+// //       p:nth-of-type(2) {
+// //         position: absolute;
+// //         color: #191919;
+// //         width: 20vw;
+// //         top: 16vw;
+// //         left: 37.5vw;
+// //       }
+// //     }
+// //     .screen_7 {
+// //       margin-top: 7vw;
+// //       outline: 4px solid #191919;
+// //       outline-offset: -4px;
+// //       height: 31vw;
+// //       position: relative;
+// //       .img_col {
+// //         display: block;
+// //         width: 13vw;
+// //         padding-top: 5vw;
+// //         padding-left: 3vw;
+// //       }
+// //       ul:nth-of-type(1) {
+// //         list-style: none;
+// //         margin-top: 2vw;
+// //         li {
+// //           display: inline-flex;
+// //           margin-left: 5vw;
+// //           img {
+// //             width: 13vw;
+// //           }
+// //         }
+// //         li:nth-of-type(1) {
+// //           margin-left: 3vw;
+// //         }
+// //       }
+// //       ul:nth-of-type(2) {
+// //         list-style: none;
+// //         margin-top: 3vw;
+// //         li {
+// //           display: inline-flex;
+// //           font-family: 'Navigo';
+// //           font-size: 1.6vw;
+// //           font-weight: 400;
+// //         }
+// //         li:nth-of-type(1) {
+// //           margin-left: 6vw;
+// //         }
+// //         li:nth-of-type(2) {
+// //           margin-left: 11vw;
+// //         }
+// //         li:nth-of-type(3) {
+// //           margin-left: 12vw;
+// //         }
+// //         li:nth-of-type(4) {
+// //           margin-left: 13vw;
+// //         }
+// //       }
+// //     }
+// //   }
+// //   .screen_8 {
+// //     margin-top: 8vw;
+// //     height: 102vw;
+// //     background-color: #191919;
+// //     position: relative;
+// //     img:nth-of-type(1) {
+// //       // display: block;
+// //       margin-top: 6vw;
+// //       margin-left: 12.7vw;
+// //       width: 28vw;
+// //     }
+// //     img:nth-of-type(2) {
+// //       display: block;
+// //       margin-top: 3vw;
+// //       margin-left: 12.7vw;
+// //       width: 15vw;
+// //     }
+// //     p {
+// //       color: #f1b8ff;
+// //       margin-left: 12.7vw;
+// //     }
+// //     p:nth-of-type(1) {
+// //       font-family: 'Golos';
+// //       font-weight: 700;
+// //       font-size: 2.2vw;
+// //       margin-top: 2vw;
+// //     }
+// //     p:nth-of-type(2) {
+// //       font-family: 'Golos';
+// //       font-weight: 700;
+// //       font-size: 1.5vw;
+// //       margin-top: 0vw;
+// //     }
+// //     p:nth-of-type(3) {
+// //       font-family: 'Golos';
+// //       font-weight: 700;
+// //       font-size: 2.5vw;
+// //       margin-top: 2vw;
+// //     }
+// //     img:nth-of-type(3) {
+// //       position: absolute;
+// //       top: 23.5vw;
+// //       left: 50.5vw;
+// //       width: 33vw;
+// //     }
+// //     p:nth-of-type(4) {
+// //       display: inline;
+// //       font-family: 'Golos';
+// //       font-weight: 700;
+// //       font-size: 2.5vw;
+// //       // margin-top: 2vw;
+// //     }
+// //     p:nth-of-type(5) {
+// //       display: inline-flex;
+// //       font-family: 'Golos';
+// //       font-weight: 700;
+// //       font-size: 2.5vw;
+// //       margin-top: 1vw;
+// //       margin-left: 22.5vw;
+// //     }
+// //     p:nth-of-type(6) {
+// //       display: inline-flex;
+// //       width: 32vw;
+// //       margin-top: 3vw;
+// //       margin-left: 12.5vw;
+// //     }
+// //     img:nth-of-type(4) {
+// //       display: block;
+// //       margin-top: 7vw;
+// //       margin-left: 12.7vw;
+// //       width: 24vw;
+// //     }
+// //     p:nth-of-type(7) {
+// //       display: block;
+// //       font-size: 2vw;
+// //       font-weight: 500;
+// //       margin-top: 2vw;
+// //       margin-left: 12.5vw;
+// //     }
+// //     p:nth-of-type(8) {
+// //       display: inline-flex;
+// //       font-weight: 500;
+// //       margin-left: 12.5vw;
+// //     }
+// //     p:nth-of-type(9) {
+// //       display: inline-flex;
+// //       margin-top: 1vw;
+// //       margin-left: 32vw;
+// //       margin-right: 20vw;
+// //     }
+// //     p:nth-of-type(10) {
+// //       display: inline-flex;
+// //       font-size: 2.5vw;
+// //       font-weight: 500;
+// //       margin-left: 12.5vw;
+// //       width: 30vw;
+// //     }
+// //     p:nth-of-type(11) {
+// //       display: inline-flex;
+// //       font-size: 2.5vw;
+// //       margin-top: 1vw;
+// //       margin-left: 8vw;
+// //       width: 30vw;
+// //     }
+// //     p:nth-of-type(12) {
+// //       display: inline;
+// //       font-weight: 500;
+// //       font-size: 2.5vw;
+// //       // margin-top: 2vw;
+// //     }
+// //     p:nth-of-type(13) {
+// //       display: inline-flex;
+// //       font-size: 2.5vw;
+// //       margin-top: 1vw;
+// //       margin-left: 23.3vw;
+// //     }
+// //   }
+// //   .content_2 {
+// //     margin: 7vw 12.7vw 0vw;
+// //     .screen_9 {
+// //       position: relative;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 17vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: block;
+// //         width: 11vw;
+// //         margin-top: 3vw;
+// //       }
+// //       .block_9_1 {
+// //         display: inline-flex;
+// //         width: 36vw;
+// //         height: 21vw;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         margin-top: 3vw;
+// //         p:nth-of-type(1) {
+// //           display: inline-flex;
+// //           margin-top: 5vw;
+// //           margin-left: 3vw;
+// //           width: 25vw;
+// //         }
+// //       }
+// //       img:nth-of-type(3) {
+// //         position: absolute;
+// //         width: 30vw;
+// //         top: 11vw;
+// //         left: 44vw;
+// //       }
+// //       .p_9_2 {
+// //         position: absolute;
+// //         top: 25vw;
+// //         left: 44vw;
+// //         width: 25vw;
+// //       }
+// //     }
+// //     .screen_10 {
+// //       margin-top: 7vw;
+// //       img {
+// //         display: block;
+// //         width: 16vw;
+// //       }
+// //       .block_10_1 {
+// //         position: relative;
+// //         display: inline-flex;
+// //         width: 36vw;
+// //         height: 23vw;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         margin-top: 3vw;
+// //         img {
+// //           position: absolute;
+// //           top: 1vw;
+// //           left: 6vw;
+// //           width: 24vw;
+// //         }
+// //       }
+// //       .block_10_2 {
+// //         position: relative;
+// //         display: inline-flex;
+// //         width: 36vw;
+// //         height: 23vw;
+// //         outline: 4px solid #191919;
+// //         outline-offset: -4px;
+// //         margin-top: 3vw;
+// //         margin-left: 1vw;
+// //         img {
+// //           position: absolute;
+// //           top: 3vw;
+// //           left: 8vw;
+// //           width: 19vw;
+// //         }
+// //       }
+// //       p:nth-of-type(1) {
+// //         display: inline-flex;
+// //         width: 20vw;
+// //       }
+// //       p:nth-of-type(2) {
+// //         display: inline-flex;
+// //         width: 25vw;
+// //         margin-top: 3vw;
+// //         margin-left: 18vw;
+// //       }
+// //     }
+// //     .screen_11 {
+// //       margin-top: 7vw;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 10vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline-flex;
+// //         width: 35vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline-flex;
+// //         width: 11vw;
+// //         margin-left: 1vw;
+// //       }
+// //       img:nth-of-type(4) {
+// //         display: inline-flex;
+// //         width: 23vw;
+// //         margin-left: 1vw;
+// //       }
+// //       img:nth-of-type(5) {
+// //         display: inline-flex;
+// //         width: 47.2vw;
+// //         margin-top: 1vw;
+// //       }
+// //       img:nth-of-type(6) {
+// //         display: inline-flex;
+// //         width: 23vw;
+// //         margin-left: 1vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         margin-top: 3vw;
+// //         width: 35vw;
+// //       }
+// //     }
+// //     .screen_12 {
+// //       margin-top: 7vw;
+// //       position: relative;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 13vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline-flex;
+// //         width: 24vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline-flex;
+// //         width: 24vw;
+// //         margin-left: 1vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         position: absolute;
+// //         top: 28.5vw;
+// //         left: 51vw;
+// //         width: 20vw;
+// //       }
+// //     }
+// //     .screen_13 {
+// //       margin-top: 7vw;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 26vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline-flex;
+// //         width: 54vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline-flex;
+// //         width: 17.4vw;
+// //         margin-left: 1vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         margin-top: 3vw;
+// //         width: 25vw;
+// //       }
+// //     }
+// //     .screen_14 {
+// //       margin-top: 7vw;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 12vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         width: 74vw;
+// //         margin-top: 3vw;
+// //       }
+// //       p:nth-of-type(1) {
+// //         margin-top: 3vw;
+// //         width: 24vw;
+// //       }
+// //     }
+// //     .screen_15 {
+// //       margin-top: 7vw;
+// //       img:nth-of-type(1) {
+// //         display: block;
+// //         width: 11vw;
+// //       }
+// //       img:nth-of-type(2) {
+// //         display: inline-flex;
+// //         width: 73.3vw;
+// //         margin-top: 3vw;
+// //       }
+// //       img:nth-of-type(3) {
+// //         display: inline-flex;
+// //         width: 36vw;
+// //         margin-top: 1vw;
+// //       }
+// //       img:nth-of-type(4) {
+// //         display: inline-flex;
+// //         width: 36vw;
+// //         margin-left: 1vw;
+// //       }
+// //       img:nth-of-type(5) {
+// //         display: inline-flex;
+// //         width: 73.3vw;
+// //         margin-top: 1vw;
+// //       }
+// //     }
+// //   }
+// //   .podval {
+// //     margin-top: 7vw;
+// //     background-color: #191919;
+// //     width: 100vw;
+// //     height: 18vw;
+// //     position: relative;
+// //     p:nth-of-type(1) {
+// //       display: inline-flex;
+// //       margin-top: 8.1vw;
+// //       margin-left: 12.5vw;
+// //       color: #fff;
+// //       line-height: 130%;
+// //     }
+// //     p:nth-of-type(2) {
+// //       position: absolute;
+// //       top: 10vw;
+// //       left: 73vw;
+// //       color: #fff;
+// //       line-height: 130%;
+// //       text-align: right;
+// //     }
+// //     img {
+// //       position: absolute;
+// //       top: 7vw;
+// //       left: 78vw;
+// //       width: 9vw;
+// //     }
+// //   }
+// // }
+// =======
 // body.styleguide {
 //   p {
 //     font-family: 'Navigo';
@@ -41,9 +724,6 @@
 //   }
 //   .content_1 {
 //     margin: 7vw 12.7vw 0vw;
-//     // margin-top: 7vw;
-//     // margin-left: 12.7vw;
-//     // margin-right: 12.5;
 //     .screen_2 {
 //       // display: inline;
 //       div {
@@ -396,13 +1076,13 @@
 //     p:nth-of-type(7) {
 //       display: block;
 //       font-size: 2vw;
-//       font-weight: 500;
+//       font-weight: 600;
 //       margin-top: 2vw;
 //       margin-left: 12.5vw;
 //     }
 //     p:nth-of-type(8) {
 //       display: inline-flex;
-//       font-weight: 500;
+//       font-weight: 600;
 //       margin-left: 12.5vw;
 //     }
 //     p:nth-of-type(9) {
@@ -414,7 +1094,7 @@
 //     p:nth-of-type(10) {
 //       display: inline-flex;
 //       font-size: 2.5vw;
-//       font-weight: 500;
+//       font-weight: 600;
 //       margin-left: 12.5vw;
 //       width: 30vw;
 //     }
@@ -427,7 +1107,7 @@
 //     }
 //     p:nth-of-type(12) {
 //       display: inline;
-//       font-weight: 500;
+//       font-weight: 600;
 //       font-size: 2.5vw;
 //       // margin-top: 2vw;
 //     }
@@ -679,3 +1359,4 @@
 //     }
 //   }
 // }
+// >>>>>>> main
