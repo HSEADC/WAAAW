@@ -167,11 +167,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/article-surfing.html',
       filename: './articles/article-surfing.html'
-    })
-      new HtmlWebpackPlugin({
+    }),
+    new HtmlWebpackPlugin({
       template: './src/checklists/checklist_1.html',
       filename: './checklists/checklist_1.html'
-
     }),
     // Podcasts
     new HtmlWebpackPlugin({
