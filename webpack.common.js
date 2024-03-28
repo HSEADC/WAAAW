@@ -167,6 +167,11 @@ module.exports = {
       template: './src/merch/notepad.html',
       filename: './merch/notepad.html'
     }),
+    // 404
+    new HtmlWebpackPlugin({
+      template: './src/404.html',
+      filename: './404.html'
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
