@@ -3,76 +3,272 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Импульс</title>
+    <title>WAAAW — медиа об экстремальном отдыхе</title>
+    <analytics></analytics>
   </head>
-  <body class="splash_screen">
-    <!-- <div class="icons">
-      <a class="icon_tg" href="https://t.me/media_impulse">
-        <img class="tg" src="images/tg.svg" alt="" />
-      </a>
-      <a class="icon_vk" href="https://vk.com/impulse_blog">
-        <img class="vk" src="images/vk.svg" alt="" />
+  <body class="index">
+    <!-- Меню -->
+
+    <div class="O_Menu">
+      <a class="Q_LogoBlack" href="/"></a>
+      <a class="A_MenuArticles" href="articles.html"></a>
+      <a class="A_MenuCards" href="cards.html"></a>
+      <a class="A_MenuChecklists" href="checklists.html"></a>
+      <a class="A_MenuPodcasts" href="podcasts.html"></a>
+      <a class="A_MenuMerch" href="merch.html"></a>
+      <a class="A_MenuAbout" href="404.html"></a>
+    </div>
+
+    <!-- Первый экранчик -->
+
+    <div class="W_FirstScreen">
+      <img src="images/FirstScreen.svg" alt="" />
+    </div>
+
+    <!-- Статьи -->
+
+    <div class="M_h2a">
+      <div class="A_h2Articles"></div>
+      <a class="A_WatchAll" href="articles.html">
+        <p id="pArticles">Смотреть все</p>
+        <div class="Q_Arrow"></div>
       </a>
     </div>
-    <a class="a_about" href="about.html">
-      <img class="logo" src="images/logo.svg" alt="" />
-    </a>
-    <h1>
-      Медиа-сервис о видах экстремального отдыха, <br />в котором скоро
-      появятся:
-    </h1>
-    <h2>Карточки</h2>
-    <h2>Чек-листы</h2>
-    <h2>Подкасты</h2>
-    <h2>Статьи</h2>
-    <p>Расскажут вам о всех видах спорта и активностей</p>
-    <p>Напомнят о важном на этапе подготовки к путешествию</p>
-    <p>Вы услышите советы и опыт других людей</p>
-    <p>Вы прочитаете рекомендации и новости в сфере экстрима</p>
-    <p>Оставь свой e-mail, если хочешь узнать о запуске!</p>
 
-    <form id="my-form" action="https://formspree.io/f/mvojlynd" method="POST"> -->
-    <!-- <label>Email:</label> -->
-    <!-- <input type="email" name="email" />
-      <button id="my-form-button">Отправить</button>
-      <p id="my-form-status"></p>
-    </form> -->
-    <!-- Place this script at the end of the body tag -->
-    <!-- <script>
-      var form = document.getElementById('my-form')
+    <div class="C_Articles">
+      <a class="O_Article" href="articles/article_1.html">
+        <div class="A_ArticleImg">
+          <img src="images/Articles/img_1.png" alt="" />
+        </div>
+        <div class="M_ArticleTextBox">
+          <h3 class="A_h3Article">
+            СЕРФИНГ <br />
+            В РОССИИ
+          </h3>
+          <p class="A_pArticle">
+            Кажется, что в России сёрфинг не очень распро..
+          </p>
+        </div>
+      </a>
 
-      async function handleSubmit(event) {
-        event.preventDefault()
-        var status = document.getElementById('my-form-status')
-        var data = new FormData(event.target)
-        fetch(event.target.action, {
-          method: form.method,
-          body: data,
-          headers: {
-            Accept: 'application/json'
-          }
-        })
-          .then((response) => {
-            if (response.ok) {
-              status.innerHTML = 'Спасибо;)'
-              form.reset()
-            } else {
-              response.json().then((data) => {
-                if (Object.hasOwn(data, 'errors')) {
-                  status.innerHTML = data['errors']
-                    .map((error) => error['message'])
-                    .join(', ')
-                } else {
-                  status.innerHTML = 'Упс, какая-то проблемка('
-                }
-              })
-            }
-          })
-          .catch((error) => {
-            status.innerHTML = 'Упс, какая-то проблемка('
-          })
-      }
-      form.addEventListener('submit', handleSubmit)
-    </script> -->
+      <a class="O_Article" href="articles/article_2.html">
+        <div class="A_ArticleImg">
+          <img src="images/Articles/img_2.png" alt="" />
+        </div>
+        <div class="M_ArticleTextBox">
+          <h3 class="A_h3Article">КАК ВЫБРАТЬ <br />ПЕРВЫЙ СКЕЙТ?</h3>
+          <p class="A_pArticle">
+            В интернете можно найти огромное количество сам..
+          </p>
+        </div>
+      </a>
+
+      <a class="O_Article" href="articles/article_3.html">
+        <div class="A_ArticleImg">
+          <img src="images/Articles/img_3.png" alt="" />
+        </div>
+        <div class="M_ArticleTextBox">
+          <h3 class="A_h3Article">
+            СНОУБОРД <br />
+            ЛЕТОМ
+          </h3>
+          <p class="A_pArticle">
+            Заголовок звучит немного противоречиво, не так ли?..
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Подкасты -->
+
+    <div class="M_h2a">
+      <div class="A_h2Podcasts"></div>
+      <a class="A_WatchAll" href="">
+        <p id="pPodcasts">Смотреть все</p>
+        <div class="Q_Arrow"></div>
+      </a>
+    </div>
+
+    <div class="C_Podcasts">
+      <a class="O_Podcast" href="">
+        <div class="A_PodcastImg">
+          <img src="images/Podcasts/img_1.png" alt="" />
+        </div>
+        <div class="M_PodcastTextBox">
+          <h3 class="A_h3Podcast">
+            СКЕЙТ КАК <br />
+            ПРОФЕССИЯ
+          </h3>
+          <p class="A_pPodcast">Траектория</p>
+        </div>
+      </a>
+
+      <a class="O_Podcast" href="">
+        <div class="A_PodcastImg">
+          <img src="images/Podcasts/img_2.png" alt="" />
+        </div>
+        <div class="M_PodcastTextBox">
+          <h3 class="A_h3Podcast">
+            АЛЬПИНИСТ, <br />
+            ПРОФЕССОР
+          </h3>
+          <p class="A_pPodcast">Бег Вреден live</p>
+        </div>
+      </a>
+
+      <a class="O_Podcast" href="">
+        <div class="A_PodcastImg">
+          <img src="images/Podcasts/img_3.png" alt="" />
+        </div>
+        <div class="M_PodcastTextBox">
+          <h3 class="A_h3Podcast">
+            КАК НАЧАТЬ <br />
+            БЕГАТЬ?
+          </h3>
+          <p class="A_pPodcast">Беговое сообще..</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Карточки -->
+
+    <div class="M_h2a">
+      <div class="A_h2Cards"></div>
+      <a class="A_WatchAll" href="">
+        <p id="pCards">Смотреть все</p>
+        <div class="Q_Arrow"></div>
+      </a>
+    </div>
+
+    <div class="C_Cards">
+      <a class="O_Card" href="">
+        <div class="A_CardImg">
+          <img src="images/Cards/img_1.png" alt="" />
+        </div>
+        <div class="M_CardTextBox">
+          <h3 class="A_h3Card">КОНКУР</h3>
+          <p class="A_pCard">
+            Конкур – конный спорт, который включает в&nbsp;себя преодоление
+            препятствий на лошади..
+          </p>
+        </div>
+      </a>
+
+      <a class="O_Card" href="">
+        <div class="A_CardImg">
+          <img src="images/Cards/img_2.png" alt="" />
+        </div>
+        <div class="M_CardTextBox">
+          <h3 class="A_h3Card">ВЕЛОКРОСС</h3>
+          <p class="A_pCard">
+            Велокросс – гонка, которая может проходить на абсолютно любой
+            местности на велосипе..
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Чек-листы -->
+
+    <div class="M_h2a">
+      <div class="A_h2Checklists"></div>
+      <a class="A_WatchAll" href="">
+        <p id="pChecklists">Смотреть все</p>
+        <div class="Q_Arrow"></div>
+      </a>
+    </div>
+
+    <div class="C_Checklists">
+      <a class="O_Checklist" href="">
+        <div class="M_ChecklistTextBox">
+          <h3 class="A_h3Checklist">ЛИЧНАЯ АПТЕЧКА</h3>
+        </div>
+        <div class="A_CheklistImg">
+          <img src="images/Checklists/img_1.png" alt="" />
+        </div>
+      </a>
+
+      <a class="O_Checklist" href="checklists/checklist_1.html">
+        <div class="M_ChecklistTextBox">
+          <h3 class="A_h3Checklist">ЗИМНИЙ ПОХОД</h3>
+        </div>
+        <div class="A_CheklistImg">
+          <img src="images/Checklists/img_2.png" alt="" />
+        </div>
+      </a>
+
+      <a class="O_Checklist" href="">
+        <div class="M_ChecklistTextBox">
+          <h3 class="A_h3Checklist">ЛЕТНИЙ СЕРФИНГ</h3>
+        </div>
+        <div class="A_CheklistImg">
+          <img src="images/Checklists/img_3.png" alt="" />
+        </div>
+      </a>
+
+      <a class="O_Checklist" href="">
+        <div class="M_ChecklistTextBox">
+          <h3 class="A_h3Checklist">ОДИН В&nbsp;ГОРЫ</h3>
+        </div>
+        <div class="A_CheklistImg">
+          <img src="images/Checklists/img_4.png" alt="" />
+        </div>
+      </a>
+    </div>
+
+    <!-- Мерч -->
+
+    <div class="M_h2a">
+      <div class="A_h2Merch"></div>
+      <a class="A_WatchAll" href="">
+        <p id="pMerch">Смотреть все</p>
+        <div class="Q_Arrow"></div>
+      </a>
+    </div>
+
+    <div class="C_MerchHome">
+      <a class="O_Merch" href="">
+        <h3 class="A_h3Merch">БЛОКНОТ</h3>
+        <div class="A_MerchImg1">
+          <img src="images/Merch/img_1.png" alt="" />
+        </div>
+      </a>
+
+      <a class="O_Merch" href="">
+        <h3 class="A_h3Merch">СКЕЙТБОРД</h3>
+        <div class="A_MerchImg1">
+          <img src="images/Merch/img_2.png" alt="" />
+        </div>
+      </a>
+
+      <a class="O_Merch" href="">
+        <h3 class="A_h3Merch">ПЛАСТЫРИ</h3>
+        <div class="A_MerchImg1">
+          <img src="images/Merch/img_3.png" alt="" />
+        </div>
+      </a>
+    </div>
+
+    <!-- <div>
+      <div><img src="images/ImgSurfPastScreen.png" alt="" /></div>
+    </div> -->
+
+    <!-- Подвал -->
+
+    <div class="O_Footer">
+      <div class="M_Links">
+        <a class="Q_LogoPink" href="/"></a>
+        <a class="Q_IconTg" href="https://t.me/media_waaaw" target="_blank"></a>
+        <a
+          class="Q_IconVk"
+          href="https://vk.com/waaaw_media"
+          target="_blank"
+        ></a>
+      </div>
+      <div class="M_TextFooter">
+        <p>HSE ADC</p>
+        <p>waaaw.ex@gmail.com</p>
+      </div>
+    </div>
   </body>
 </html>

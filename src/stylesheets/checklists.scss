@@ -1,18 +1,40 @@
-body.razdel-checklists { 
-    
-    .header {text-align: center;}
-
-    .header ul {list-style: none;
-                margin: 0px;
-                margin-top: 10px;}
-
-    .header li {display: inline;
-                margin: 60px;}
-
-    .cent {text-align: center;
-            margin-top: 150px;}
-
-    a {text-decoration: none;
-        color: inherit;}
-
+.checklist_1 {
+  .h2WinterP {
+    width: 23.63vw;
+    height: 2.5vw;
+    display: block;
+    background: url('images/Checklists/h2WinterP.svg');
+    background-position: top center;
+    background-size: 23.63vw 2.5vw;
+    background-repeat: no-repeat;
+  }
+  .C_CheckboxesBoxes {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2vw;
+    .O_BoxCheckboxes:nth-of-type(2) {
+      margin-left: 2.2vw;
+    }
+    .O_BoxCheckboxes:nth-of-type(3) {
+      margin-left: 2.2vw;
+      height: 17.6vw;
+    }
+    .O_BoxCheckboxes:nth-of-type(4) {
+      margin-top: 21.9vw;
+      margin-left: -21.5vw;
+      height: 11.9vw;
+    }
+  }
+  .Also {
+    width: 30.2vw;
+    height: 2.97vw;
+    display: block;
+    margin-top: 7vw;
+    background: url('images/Merch/WatchAlso.svg');
+    background-position: top center;
+    background-size: 30.2vw 2.97vw;
+    background-repeat: no-repeat;
+  }
 }

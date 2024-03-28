@@ -1,18 +1,24 @@
-body.razdel-podcasts { 
-    
-    .header {text-align: center;}
-
-    .header ul {list-style: none;
-                margin: 0px;
-                margin-top: 10px;}
-
-    .header li {display: inline;
-                margin: 60px;}
-
-    .cent {text-align: center;
-            margin-top: 150px;}
-
-    a {text-decoration: none;
-        color: inherit;}
-
+.podcast_1 {
+  .SkateLikeProf {
+    width: 37.66vw;
+    height: 3vw;
+    display: block;
+    background: url('images/Podcasts/h2SkateLikeProf.svg');
+    background-position: top center;
+    background-size: 37.66vw 3vw;
+    background-repeat: no-repeat;
+  }
+  #main {
+    margin-top: 3vw;
+  }
+  .Also {
+    width: 30.2vw;
+    height: 3vw;
+    display: block;
+    margin-top: 7vw;
+    background: url('images/Podcasts/ListenAlso.svg');
+    background-position: top center;
+    background-size: 30.2vw 3vw;
+    background-repeat: no-repeat;
+  }
 }

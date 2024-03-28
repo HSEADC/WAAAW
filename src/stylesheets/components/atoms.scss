@@ -1,104 +1,385 @@
-.A_h2Articles {
-  width: 14.2vw;
-  height: 2.6vw;
+.A_h2Articles,
+.A_h2Podcasts,
+.A_h2Cards,
+.A_h2Checklist,
+.A_MenuArticles,
+.A_ArticleImg,
+.A_PodcastImg,
+.A_CheklistImg {
   background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.A_h2Podcasts {
-  width: 14.2vw;
-  height: 2.6vw;
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.A_h2Cards {
-  width: 14.2vw;
-  height: 2.6vw;
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.A_h2Checklist {
-  width: 14.2vw;
-  height: 2.6vw;
-  background-position: top center;
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
-.A_h3Article {
-  line-height: 108%;
-  font-size: 1.6vw;
+h3,
+p,
+a {
   font-family: 'Navigo';
+}
+h3 {
+  font-size: 1.6vw;
   font-weight: 800;
-  color: #000;
+  line-height: 108%;
   // text-transform: uppercase;
+}
+p {
+  font-size: 1.25vw;
+  font-weight: 500;
+  line-height: 110%;
+}
+a {
+  text-decoration: none;
+}
+
+// Меню
+
+.A_MenuArticles {
+  width: 5.39vw;
+  height: 0.98vw;
+  display: block;
+  background: url('images/Menu/MenuArticles.svg');
+  background-position: top center;
+  background-size: 5.39vw 0.98vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuArticlesHover.svg');
+    background-position: top center;
+    background-size: 5.39vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuArticlesActive.svg');
+    background-position: top center;
+    background-size: 5.39vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+}
+.A_MenuCards {
+  width: 7.19vw;
+  height: 1.17vw;
+  display: block;
+  background: url('images/Menu/MenuCards.svg');
+  background-position: top center;
+  background-size: 7.19vw 1.17vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuCardsHover.svg');
+    background-position: top center;
+    background-size: 7.19vw 1.17vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuCardsActive.svg');
+    background-position: top center;
+    background-size: 7.19vw 1.17vw;
+    background-repeat: no-repeat;
+  }
+}
+.A_MenuChecklists {
+  width: 8.2vw;
+  height: 0.98vw;
+  display: block;
+  background: url('images/Menu/MenuChecklists.svg');
+  background-position: top center;
+  background-size: 8.2vw 0.98vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuChecklistsHover.svg');
+    background-position: top center;
+    background-size: 8.2vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuChecklistsActive.svg');
+    background-position: top center;
+    background-size: 8.2vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+}
+
+.A_MenuPodcasts {
+  width: 7.73vw;
+  height: 1.09vw;
+  display: block;
+  background: url('images/Menu/MenuPodcasts.svg');
+  background-position: top center;
+  background-size: 7.73vw 1.09vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuPodcastsHover.svg');
+    background-position: top center;
+    background-size: 7.73vw 1.09vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuPodcastsActive.svg');
+    background-position: top center;
+    background-size: 7.73vw 1.09vw;
+    background-repeat: no-repeat;
+  }
+}
+.A_MenuMerch {
+  width: 3.83vw;
+  height: 1.17vw;
+  display: block;
+  background: url('images/Menu/MenuMerch.svg');
+  background-position: top center;
+  background-size: 3.83vw 1.17vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuMerchHover.svg');
+    background-position: top center;
+    background-size: 3.83vw 1.17vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuMerchActive.svg');
+    background-position: top center;
+    background-size: 3.83vw 1.17vw;
+    background-repeat: no-repeat;
+  }
+}
+.A_MenuAbout {
+  width: 4.06vw;
+  height: 0.98vw;
+  display: block;
+  background: url('images/Menu/MenuAbout.svg');
+  background-position: top center;
+  background-size: 4.06vw 0.98vw;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url('images/Menu/MenuAboutHover.svg');
+    background-position: top center;
+    background-size: 4.06vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+  &:active {
+    background: url('images/Menu/MenuAboutActive.svg');
+    background-position: top center;
+    background-size: 4.06vw 0.98vw;
+    background-repeat: no-repeat;
+  }
+}
+
+.A_WatchAll {
+  display: flex;
+  text-decoration: none;
+  color: #191919;
+  p {
+    margin-top: 1.5vw;
+  }
+  .Q_Arrow {
+    margin-top: 1.5vw;
+    margin-left: 0.8vw;
+  }
+}
+
+// Заголовки h2
+
+.A_h2 {
+  margin-top: 4vw;
+  margin-left: 15.5vw;
+}
+
+.A_h2Articles {
+  width: 13vw;
+  height: 2.4vw;
+  display: block;
+  background: url('images/Menu/MenuArticles.svg');
+  background-position: top center;
+  background-size: 13vw 2.4vw;
+  background-repeat: no-repeat;
+}
+.A_h2Podcasts {
+  width: 18.95vw;
+  height: 2.77vw;
+  display: block;
+  background: url('images/Menu/MenuPodcasts.svg');
+  background-position: top center;
+  background-size: 18.95vw 2.77vw;
+  background-repeat: no-repeat;
+}
+.A_h2Cards {
+  width: 17.5vw;
+  height: 3.05vw;
+  display: block;
+  background: url('images/Menu/MenuCards.svg');
+  background-position: top center;
+  background-size: 17.5vw 3.05vw;
+  background-repeat: no-repeat;
+}
+.A_h2Checklists {
+  width: 20.86vw;
+  height: 2.73vw;
+  display: block;
+  background: url('images/Menu/MenuChecklists.svg');
+  background-position: top center;
+  background-size: 20.86vw 2.73vw;
+  background-repeat: no-repeat;
+}
+.A_h2Merch {
+  width: 9.61vw;
+  height: 3vw;
+  display: block;
+  background: url('images/Menu/MenuMerch.svg');
+  background-position: top center;
+  background-size: 9.61vw 3vw;
+  background-repeat: no-repeat;
+}
+
+// Заголовки h3
+
+.A_h3Article {
+  color: #191919;
 }
 .A_h3Podcast {
-  line-height: 108%;
-  font-size: 1.6vw;
-  font-family: 'Navigo';
-  font-weight: 800;
   color: #ff5c00;
-  // text-transform: uppercase;
 }
 .A_h3Card {
-  line-height: 108%;
-  font-size: 1.6vw;
-  font-family: 'Navigo';
-  font-weight: 800;
-  color: #000;
-  // text-transform: uppercase;
+  color: #191919;
 }
 .A_h3Checklist {
-  line-height: 108%;
-  font-size: 1.6vw;
-  font-family: 'Navigo';
-  font-weight: 800;
   color: #fff;
-  // text-transform: uppercase;
 }
+.A_h3Merch {
+  color: #191919;
+}
+.A_h3MerchA {
+  color: #191919;
+  width: 30vw;
+}
+.A_h3Checkboxes {
+  color: #fff;
+}
+
+.A_Chekbox {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 0.5vw;
+  p {
+    margin-top: 0.35vw;
+    margin-left: 0.5vw;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1vw;
+  }
+}
+// Текст p
+
 .A_pArticle {
-  line-height: 110%;
-  font-size: 1.2vw;
-  font-family: 'Navigo';
-  font-weight: 500;
   color: #191919;
 }
 .A_pPodcast {
-  line-height: 110%;
-  font-size: 1.2vw;
-  font-family: 'Navigo';
-  font-weight: 500;
   color: #ff5c00;
 }
 .A_pCard {
-  line-height: 110%;
-  font-size: 1.2vw;
-  font-family: 'Navigo';
-  font-weight: 500;
   color: #191919;
 }
-.A_Btoutn {
+.A_pMerchA {
+  color: #191919;
+  width: 40vw;
+}
+.A_pFooter {
+  color: #f1b8ff;
+}
+
+// Картинки
+
+.A_ArticleImg,
+.A_PodcastImg,
+.A_CardImg,
+.A_MerchImg1,
+.A_MerchImg2,
+.A_MerchImg3 {
+  border-radius: 1.3vw;
+}
+
+.A_ArticleImg {
+  width: 21.48vw;
+  height: 15vw;
+  img {
+    width: 21.48vw;
+    height: 15vw;
+  }
+}
+.A_PodcastImg {
+  width: 9.7vw;
+  height: 9.7vw;
+  img {
+    width: 9.7vw;
+    height: 9.7vw;
+  }
+}
+.A_CardImg {
+  width: 33.24vw;
+  height: 15vw;
+  img {
+    width: 33.24vw;
+    height: 15vw;
+  }
+}
+.A_MerchImg1 {
+  width: 21.48vw;
+  height: 23.83vw;
+  img {
+    width: 21.48vw;
+    height: 23.83vw;
+  }
+}
+.A_MerchImg2 {
+  width: 45vw;
+  height: 23.83vw;
+  img {
+    width: 45vw;
+    height: 23.83vw;
+  }
+}
+.A_MerchImg3 {
+  width: 68.7vw;
+  height: 23.83vw;
+  img {
+    width: 68.7vw;
+    height: 23.83vw;
+  }
+}
+.A_CheklistImg {
+  width: 12.73vw;
+  height: 10.7vw;
+  img {
+    width: 12.73vw;
+    height: 10.7vw;
+  }
+}
+
+.A_Pleer {
+  width: 21.4vw;
+  height: 3.8vw;
+  display: block;
+  background: url('images/Podcasts/Pleer.svg');
+  background-position: top center;
+  background-size: 21.4vw 3.8vw;
+  background-repeat: no-repeat;
+}
+// Кнопки
+
+.A_Button {
   width: 10.1vw;
   height: 3.1vw;
   background-color: #f7d9ff;
   color: #ff5c00;
   border-radius: 1.4vw;
 }
-.A_Btoutn:hover {
+.A_Button:hover {
   background-color: #ff5c00;
   color: #f7d9ff;
 }
-.A_Btoutn:active {
+.A_Button:active {
   background-color: #ff823c;
   color: #f1b8ff;
-}
-.A_MenuArticles {
-  width: 4vw;
-  height: 2vw;
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
