@@ -158,19 +158,20 @@ module.exports = {
       filename: './cards/card_3.html'
     }),
     // Checklists
-    new HtmlWebpackPlugin({
-<<<<<<< HEAD
-      template: './src/checklists/checklists-surfing.html',
-      filename: './checklists/checklists-surfing.html'
-    }),
+    // new HtmlWebpackPlugin({
+
+    //   template: './src/checklists/checklists-surfing.html',
+    //   filename: './checklists/checklists-surfing.html'
+    // }),
     // Articles
     new HtmlWebpackPlugin({
       template: './src/articles/article-surfing.html',
       filename: './articles/article-surfing.html'
-=======
+    })
+      new HtmlWebpackPlugin({
       template: './src/checklists/checklist_1.html',
       filename: './checklists/checklist_1.html'
->>>>>>> main
+
     }),
     // Podcasts
     new HtmlWebpackPlugin({
