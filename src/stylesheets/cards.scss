@@ -1,21 +1,46 @@
-.card_1 {
-  .Konkur {
-    width: 12.57vw;
-    height: 2.9vw;
-    display: block;
-    background: url('images/Cards/h2Konkur.svg');
-    background-position: top center;
-    background-size: 12.57vw 2.9vw;
-    background-repeat: no-repeat;
-  }
-  .Also {
-    width: 25.77vw;
-    height: 2.38vw;
-    display: block;
-    margin-top: 7vw;
-    background: url('images/Cards/ReadAlso.svg');
-    background-position: top center;
-    background-size: 25.77vw 2.38vw;
-    background-repeat: no-repeat;
-  }
+.h2Konkur,
+.h2Cyclocross,
+.h2Rafting {
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.h2Konkur {
+  width: 12.57vw;
+  height: 2.9vw;
+  background: url('images/Cards/h2Konkur.svg');
+  background-size: 12.57vw 2.9vw;
+}
+.h2Cyclocross {
+  width: 19.67vw;
+  height: 2.94vw;
+  display: block;
+  background: url('images/Cards/h2Cyclocross.svg');
+  background-size: 19.67vw 2.94vw;
+}
+.h2Rafting {
+  width: 15.85vw;
+  height: 2.94vw;
+  background: url('images/Cards/h2Rafting.svg');
+  background-size: 15.85vw 2.94vw;
+}
+.h2Drift {
+  width: 13.23vw;
+  height: 2.94vw;
+  background: url('images/Cards/h2Drift.svg');
+  background-size: 13.23vw 2.94vw;
+}
+
+.h2Downhill-skiing {
+  width: 25.82vw;
+  height: 2.94vw;
+  background: url('images/Cards/h2Downhill-skiing.svg');
+  background-size: 25.82vw 2.94vw;
+}
+.h2Sandboarding {
+  width: 23.84vw;
+  height: 3.02vw;
+  background: url('images/Cards/h2Sandboarding.svg');
+  background-size: 23.84vw 3.02vw;
 }

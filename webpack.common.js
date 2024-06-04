@@ -146,17 +146,30 @@ module.exports = {
     }),
     // Сards
     new HtmlWebpackPlugin({
-      template: './src/cards/card_1.html',
-      filename: './cards/card_1.html'
+      template: './src/cards/konkur.html',
+      filename: './cards/konkur.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/cards/card_2.html',
-      filename: './cards/card_2.html'
+      template: './src/cards/cyclocross.html',
+      filename: './cards/cyclocross.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/cards/card_3.html',
-      filename: './cards/card_3.html'
+      template: './src/cards/rafting.html',
+      filename: './cards/rafting.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/cards/drift.html',
+      filename: './cards/drift.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/cards/downhill-skiing.html',
+      filename: './cards/downhill-skiing.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/cards/sandboarding.html',
+      filename: './cards/sandboarding.html'
+    }),
+
     // Checklists
     new HtmlWebpackPlugin({
       template: './src/checklists/checklist_1.html',
@@ -169,8 +182,40 @@ module.exports = {
     }),
     // Merch
     new HtmlWebpackPlugin({
-      template: './src/merch/notepad.html',
-      filename: './merch/notepad.html'
+      template: './src/merch/notepad_1.html',
+      filename: './merch/notepad_1.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/notepad_2.html',
+      filename: './merch/notepad_2.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/bag.html',
+      filename: './merch/bag.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/bars.html',
+      filename: './merch/bars.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/medkit.html',
+      filename: './merch/medkit.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/skateboard.html',
+      filename: './merch/skateboard.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/t-shirt.html',
+      filename: './merch/t-shirt.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/patches.html',
+      filename: './merch/patches.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/socks.html',
+      filename: './merch/socks.html'
     }),
     // 404
     new HtmlWebpackPlugin({
