@@ -1,6 +1,7 @@
 .Q_IconTg,
 .Q_IconVk,
-.Q_LogoPink {
+.Q_LogoPink,
+.Q_LogoBlack {
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -10,21 +11,21 @@
   height: 1.72vw;
   display: block;
   background: url('images/LogoBlack.svg');
-  background-position: top center;
   background-size: 6.72vw 1.72vw;
-  background-repeat: no-repeat;
 
   &:hover {
     background: url('images/LogoPink.svg');
     background-position: top center;
     background-size: 6.72vw 1.72vw;
     background-repeat: no-repeat;
+    transition: 0.2s;
   }
   &:active {
     background: url('images/LogoOrange.svg');
     background-position: top center;
     background-size: 6.72vw 1.72vw;
     background-repeat: no-repeat;
+    transition: 0.2s;
   }
 }
 
