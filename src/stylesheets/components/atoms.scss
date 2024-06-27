@@ -417,3 +417,23 @@ audio {
   background-color: #ff823c;
   color: #f1b8ff;
 }
+
+.A_ButtonDownload {
+  display: flex;
+  width: 9.5vw;
+  height: 3vw;
+  border-radius: 2vw;
+  background-color: #f1b8ff;
+  margin-top: 2.3vw;
+  margin-left: 74.5vw;
+  p {
+    font-size: 1.1vw;
+    margin-top: 0.95vw;
+    margin-left: 1.6vw;
+    color: #191919;
+  }
+  .Q_ArrowDown {
+    margin-top: 0.6vw;
+    margin-left: 0.8vw;
+  }
+}

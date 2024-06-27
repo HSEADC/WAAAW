@@ -13,20 +13,20 @@
   background: url('images/LogoBlack.svg');
   background-size: 6.72vw 1.72vw;
 
-  &:hover {
-    background: url('images/LogoPink.svg');
-    background-position: top center;
-    background-size: 6.72vw 1.72vw;
-    background-repeat: no-repeat;
-    transition: 0.2s;
-  }
-  &:active {
-    background: url('images/LogoOrange.svg');
-    background-position: top center;
-    background-size: 6.72vw 1.72vw;
-    background-repeat: no-repeat;
-    transition: 0.2s;
-  }
+  // &:hover {
+  //   background: url('images/LogoPink.svg');
+  //   background-position: top center;
+  //   background-size: 6.72vw 1.72vw;
+  //   background-repeat: no-repeat;
+  //   transition: 0.2s;
+  // }
+  // &:active {
+  //   background: url('images/LogoOrange.svg');
+  //   background-position: top center;
+  //   background-size: 6.72vw 1.72vw;
+  //   background-repeat: no-repeat;
+  //   transition: 0.2s;
+  // }
 }
 
 .A_check {
@@ -95,10 +95,20 @@
   }
 }
 
-.Q_Spark {
-  width: 3vw;
-  height: 2vw;
+.Q_ArrowDown {
+  height: 1.8vw;
+  width: 1.8vw;
+  border-radius: 5vw;
+  background: url('images/Checklists/ArrowDown.png');
   background-position: top center;
-  background-size: contain;
+  background-size: 1.8vw 1.8vw;
   background-repeat: no-repeat;
 }
+
+// .Q_Spark {
+//   width: 3vw;
+//   height: 2vw;
+//   background-position: top center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
