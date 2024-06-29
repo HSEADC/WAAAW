@@ -1,1 +1,48 @@
+.h2snowboard_summer,
+.h2surfing_Russia,
+.h2first_skate,
+.h2first_parachute_jump,
+.h2overcome_fear,
+.h2balloon_flight {
+  display: block;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
+.h2snowboard_summer {
+  width: 31vw;
+  height: 3.2vw;
+  background: url('images/Articles/h2snowboard_summer.svg');
+  background-size: 31vw 3.2vw;
+}
+.h2surfing_Russia {
+  width: 33.33vw;
+  height: 3.2vw;
+  background: url('images/Articles/h2surfing_Russia.svg');
+  background-size: 33.33vw 3.2vw;
+}
+.h2first_skate {
+  width: 53.79vw;
+  height: 3.4vw;
+  background: url('images/Articles/h2first_skate.svg');
+  background-size: 53.79vw 3.4vw;
+}
+.h2first_parachute_jump {
+  width: 48.55vw;
+  height: 3.14vw;
+  background: url('images/Articles/h2first_parachute_jump.svg');
+  background-size: 48.55vw 3.14vw;
+}
+.h2overcome_fear {
+  width: 38.94vw;
+  height: 3.14vw;
+  background: url('images/Articles/h2overcome_fear.svg');
+  background-size: 38.94vw 3.14vw;
+}
+
+.h2balloon_flight {
+  width: 52vw;
+  height: 3.22vw;
+  background: url('images/Articles/h2balloon_flight.svg');
+  background-size: 52vw 3.22vw;
+}

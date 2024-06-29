@@ -1,13 +1,67 @@
-.checklist_1 {
-  .h2WinterP {
-    width: 23.63vw;
-    height: 2.5vw;
-    display: block;
-    background: url('images/Checklists/h2WinterP.svg');
-    background-position: top center;
-    background-size: 23.63vw 2.5vw;
-    background-repeat: no-repeat;
-  }
+.winter_hiking,
+.h2medkit,
+.h2summersurfing,
+.h2alone_mountains,
+.h2hiking_with_family,
+.h2pair_diving,
+.h2cyclocross_with_family,
+.h2pair_climbing {
+  display: block;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.h2Winter_hiking {
+  width: 23.63vw;
+  height: 2.5vw;
+  background: url('images/Checklists/h2Winter_hiking.svg');
+  background-size: 23.63vw 2.5vw;
+}
+.h2medkit {
+  width: 26vw;
+  height: 2.1vw;
+  background: url('images/Checklists/h2medkit.svg');
+  background-size: 26vw 2.1vw;
+}
+.h2summersurfing {
+  width: 27.5vw;
+  height: 2.74vw;
+  background: url('images/Checklists/h2summersurfing.svg');
+  background-size: 27.5vw 2.74vw;
+}
+.h2alone_mountains {
+  width: 21.1vw;
+  height: 2.7vw;
+  background: url('images/Checklists/h2alone_mountains.svg');
+  background-size: 21.1vw 2.7vw;
+}
+.h2hiking_with_family {
+  width: 26.18vw;
+  height: 2.54vw;
+  background: url('images/Checklists/h2hiking_with_family.svg');
+  background-size: 26.18vw 2.54vw;
+}
+.h2pair_diving {
+  width: 28vw;
+  height: 2.74vw;
+  background: url('images/Checklists/h2pair_diving.svg');
+  background-size: 28vw 2.74vw;
+}
+.h2cyclocross_with_family {
+  width: 32.58vw;
+  height: 2.74vw;
+  background: url('images/Checklists/h2cyclocross_with_family.svg');
+  background-size: 32.58vw 2.74vw;
+}
+.h2pair_climbing {
+  width: 32vw;
+  height: 2.74vw;
+  background: url('images/Checklists/h2pair_climbing.svg');
+  background-size: 32vw 2.74vw;
+}
+
+.winter_hiking,
+.alone_mountains,
+.pair_climbing {
   .C_CheckboxesBoxes {
     width: auto;
     height: auto;
@@ -26,15 +80,5 @@
       margin-left: -21.5vw;
       height: 12.5vw;
     }
-  }
-  .Also {
-    width: 30.2vw;
-    height: 2.97vw;
-    display: block;
-    margin-top: 7vw;
-    background: url('images/Merch/WatchAlso.svg');
-    background-position: top center;
-    background-size: 30.2vw 2.97vw;
-    background-repeat: no-repeat;
   }
 }
