@@ -133,17 +133,37 @@ module.exports = {
     }),
     // Articles
     new HtmlWebpackPlugin({
-      template: './src/articles/article_1.html',
-      filename: './articles/article_1.html'
+      template: './src/articles/surfing_Russia.html',
+      filename: './articles/surfing_Russia.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/articles/article_2.html',
-      filename: './articles/article_2.html'
+      template: './src/articles/first_skate.html',
+      filename: './articles/first_skate.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/articles/article_3.html',
-      filename: './articles/article_3.html'
+      template: './src/articles/snowboard_summer.html',
+      filename: './articles/snowboard_summer.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/first_parachute_jump.html',
+      filename: './articles/first_parachute_jump.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/overcome_fear.html',
+      filename: './articles/overcome_fear.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/balloon_flight.html',
+      filename: './articles/balloon_flight.html'
+    }),
+    // new HtmlWebpackPlugin({
+    //   template: './src/articles/article_2.html',
+    //   filename: './articles/article_2.html'
+    // }),
+    // new HtmlWebpackPlugin({
+    //   template: './src/articles/article_3.html',
+    //   filename: './articles/article_3.html'
+    // }),
     // Сards
     new HtmlWebpackPlugin({
       template: './src/cards/konkur.html',
@@ -172,13 +192,73 @@ module.exports = {
 
     // Checklists
     new HtmlWebpackPlugin({
-      template: './src/checklists/checklist_1.html',
-      filename: './checklists/checklist_1.html'
+      template: './src/checklists/medkit.html',
+      filename: './checklists/medkit.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/winter_hiking.html',
+      filename: './checklists/winter_hiking.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/summersurfing.html',
+      filename: './checklists/summersurfing.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/alone_mountains.html',
+      filename: './checklists/alone_mountains.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/hiking_with_family.html',
+      filename: './checklists/hiking_with_family.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/pair_diving.html',
+      filename: './checklists/pair_diving.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/cyclocross_with_family.html',
+      filename: './checklists/cyclocross_with_family.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/checklists/pair_climbing.html',
+      filename: './checklists/pair_climbing.html'
     }),
     // Podcasts
     new HtmlWebpackPlugin({
-      template: './src/podcasts/podcast_1.html',
-      filename: './podcasts/podcast_1.html'
+      template: './src/podcasts/skate_like_prof.html',
+      filename: './podcasts/skate_like_prof.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/alpinist_prof.html',
+      filename: './podcasts/alpinist_prof.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/kak_nachat_begat.html',
+      filename: './podcasts/kak_nachat_begat.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/avtosport_drift.html',
+      filename: './podcasts/avtosport_drift.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/snowboard_vazhno.html',
+      filename: './podcasts/snowboard_vazhno.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/put_drift.html',
+      filename: './podcasts/put_drift.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/chempions_parkur.html',
+      filename: './podcasts/chempions_parkur.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/trening_v_otkaz.html',
+      filename: './podcasts/trening_v_otkaz.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/podcasts/skalolaz.html',
+      filename: './podcasts/skalolaz.html'
     }),
     // Merch
     new HtmlWebpackPlugin({
@@ -217,6 +297,14 @@ module.exports = {
       template: './src/merch/socks.html',
       filename: './merch/socks.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/mugs.html',
+      filename: './merch/mugs.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/merch/case.html',
+      filename: './merch/case.html'
+    }),
     // 404
     new HtmlWebpackPlugin({
       template: './src/404.html',
@@ -227,6 +315,22 @@ module.exports = {
       {
         path: path.join(__dirname, './src/partials/analytics.html'),
         location: 'analytics',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/menubar.html'),
+        location: 'menubar',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/footer.html'),
+        location: 'footer',
         template_filename: '*',
         priority: 'replace'
       }

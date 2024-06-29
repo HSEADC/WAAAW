@@ -14,10 +14,40 @@
   width: auto;
   height: auto;
   display: flex;
-  margin-left: 15.5vw;
+  margin-left: 15vw;
   margin-top: 2.2vw;
   .A_Pleer {
-    margin-top: 8.5vw;
+    margin-top: 5.8vw;
     margin-left: 2.7vw;
+  }
+}
+.W_PastScreen {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background: url('images/PastScreen.jpg');
+  background-size: 100vw 26.3vw;
+  display: flex;
+  margin-top: 8.5vw;
+  width: 100vw;
+  height: 26.3vw;
+  p {
+    margin-top: 20.22vw;
+    margin-left: 20.88vw;
+    width: 28.76vw;
+  }
+  a {
+    background-color: #fff;
+    border: 0.27vw solid #ff9d66;
+    border-radius: 5vw;
+    margin-top: 19vw;
+    margin-left: 6.4vw;
+    width: 13vw;
+    height: 3.7vw;
+    p {
+      color: #191919;
+      margin-top: 1.17vw;
+      margin-left: 3vw;
+      font-size: 1.5vw;
+    }
   }
 }
